@@ -1,0 +1,13 @@
+{
+  "name": "tag-team",
+  "version": "1.0.0",
+  "description": "Tag Team — your AI teammate. Grounds itself in your memory, skills, and pending work before it does anything.",
+  "author": { "name": "BotBuilders", "email": "support@botbuilders.com" },
+  "keywords": ["tagteam", "tag-team", "clone", "assistant", "teammate", "memory"],
+  "mcpServers": {
+    "tagteam": {
+      "type": "http",
+      "url": "https://api.tagteam.ai/mcp/"
+    }
+  }
+}

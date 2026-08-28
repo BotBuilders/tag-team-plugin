@@ -1,0 +1,8 @@
+{
+  "name": "tag-team",
+  "owner": { "name": "BotBuilders", "email": "support@botbuilders.com" },
+  "description": "Tag Team — the BotBuilders AI teammate that keeps your context, memory and pending work in one place.",
+  "plugins": [
+    { "name": "tag-team", "source": ".", "description": "Tag Team AI teammate connection and wake-up skill." }
+  ]
+}
