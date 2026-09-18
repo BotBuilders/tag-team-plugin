@@ -5,4 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: pip install pyyaml
       - run: python3 scripts/verify-plugin-manifests.py
+      - run: python3 scripts/verify-chatgpt-plugin.py
+      - run: python3 scripts/sync-chatgpt-plugin.py --check

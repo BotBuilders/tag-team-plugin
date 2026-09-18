@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "tagteam": {
+      "type": "http",
+      "url": "https://api.tagteam.ai/mcp/",
+      "oauth_resource": "https://api.tagteam.ai/mcp"
+    }
+  }
+}
