@@ -1,0 +1,20 @@
+{
+  "name": "botbuilders-tag-team",
+  "interface": {
+    "displayName": "BotBuilders"
+  },
+  "plugins": [
+    {
+      "name": "tag-team",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tag-team"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

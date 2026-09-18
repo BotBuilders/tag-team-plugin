@@ -19,6 +19,15 @@ Tag Team in your browser and approve access. That is a one-time step per machine
 - Say **tag** later on to pull in anything that changed.
 - Or type **/tag-in** to do it explicitly.
 
+## In ChatGPT
+
+The same Tag Team ships as a ChatGPT plugin from this repo, under `plugins/tag-team/`. It needs
+developer mode in ChatGPT and the same Tag Team account. See
+[plugins/tag-team/INSTALL-ChatGPT.md](plugins/tag-team/INSTALL-ChatGPT.md).
+
+The skill is the same file in both packagings. Edit `skills/` and run
+`python3 scripts/sync-chatgpt-plugin.py` to carry the change over; CI fails if the two copies drift.
+
 ## Install this or a product plugin, not both
 
 Tag Team and the BotBuilders product plugins (AI CMO and friends) connect to two different

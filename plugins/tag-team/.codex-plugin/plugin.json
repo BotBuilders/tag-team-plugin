@@ -1,0 +1,41 @@
+{
+  "name": "tag-team",
+  "version": "1.0.0",
+  "description": "Tag Team \u2014 your AI teammate. Grounds itself in your memory, skills, and pending work before it does anything.",
+  "author": {
+    "name": "BotBuilders",
+    "email": "support@botbuilders.com",
+    "url": "https://botbuilders.com"
+  },
+  "homepage": "https://botbuilders.com",
+  "keywords": [
+    "tagteam",
+    "tag-team",
+    "clone",
+    "assistant",
+    "teammate",
+    "memory"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Tag Team",
+    "shortDescription": "Your AI teammate, by BotBuilders.",
+    "longDescription": "Tag Team keeps your operating instructions, your memory, your skills and your pending work in one place. Say \"whoomp\" and it loads that context before it answers, so it starts from what you have already told it instead of from nothing.",
+    "developerName": "BotBuilders",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://botbuilders.com",
+    "privacyPolicyURL": "https://botbuilders.com/privacy",
+    "termsOfServiceURL": "https://botbuilders.com/terms",
+    "defaultPrompt": [
+      "whoomp \u2014 catch me up on what's pending.",
+      "What did we decide about this last time?",
+      "Remember that the launch moved to March."
+    ],
+    "brandColor": "#111111"
+  }
+}

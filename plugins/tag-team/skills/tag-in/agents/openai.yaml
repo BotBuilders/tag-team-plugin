@@ -1,0 +1,21 @@
+interface:
+  display_name: "Tag In"
+  short_description: "Load your Tag Team context before answering"
+  default_prompt: "Use $tag-in to load my Tag Team memory and pending work."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "tag_in"
+      description: "Loads this account's operating instructions, skills index, settings, and pending work. Call first, with no arguments."
+      transport: "streamable_http"
+      url: "https://api.tagteam.ai/mcp/"
+    - type: "mcp"
+      value: "get_skill"
+      description: "Reads one skill from this account's library in full."
+      transport: "streamable_http"
+      url: "https://api.tagteam.ai/mcp/"
+    - type: "mcp"
+      value: "memory"
+      description: "Reads and writes this account's memory files. Call with command view and no path to list them."
+      transport: "streamable_http"
+      url: "https://api.tagteam.ai/mcp/"
